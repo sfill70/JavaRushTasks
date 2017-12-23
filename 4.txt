@@ -1,0 +1,12 @@
+﻿[Language],
+1= Installing the driver/software, please wait
+2=Does not support this Operating System,
+3=Installation completed
+4=Installation, failed
+5=System needs to reboot to complete the installation. Do you want to reboot now?
+6 =Driver Information 
+7=Name,
+8=Description
+9=Version,
+10=OK
+11=CANCEL

@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="jackson-annotations-2.9.1-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../jackson/jackson-annotations-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jackson/jackson-core-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jackson/jackson-databind-2.9.1.jar!/" />
+      <root url="file://$PROJECT_DIR$/../jackson" />
+      <root url="file://$PROJECT_DIR$/../jackson" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../jackson/jackson-annotations-2.9.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jackson/jackson-core-2.9.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jackson/jackson-databind-2.9.1-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../jackson" />
+      <root url="file://$PROJECT_DIR$/../jackson" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../jackson" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../jackson" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../jackson" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/../jackson" recursive="false" type="SOURCES" />
+  </library>
+</component>
