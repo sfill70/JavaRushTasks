@@ -8,7 +8,7 @@ import java.util.*;
 */
 public class CustomTree extends AbstractList<String> implements Cloneable, Serializable {
 
-    Entry<String>root;
+    Entry<String>root=new Entry<String>("0");
 
     @Override
     public String get(int index) {
@@ -179,8 +179,8 @@ public class CustomTree extends AbstractList<String> implements Cloneable, Seria
         for (int i = 1; i < 16; i++) {
             list.add(String.valueOf(i));
         }
-        //System.out.println("Expected 3, actual is " + ((CustomTree) list).getParent("8"));
+        System.out.println("Expected 3, actual is " + ((CustomTree) list).getParent("8"));
         list.remove("5");
-        //System.out.println("Expected null, actual is " + ((CustomTree) list).getParent("11"));
+        System.out.println("Expected null, actual is " + ((CustomTree) list).getParent("11"));
     }
 }
