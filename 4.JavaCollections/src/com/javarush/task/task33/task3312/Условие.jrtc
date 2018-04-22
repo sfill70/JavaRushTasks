@@ -7,9 +7,9 @@ taskKey="com.javarush.task.task33.task3312"
 Для проверки можешь использовать метод main класса Solution.
 
 Было:
-{"animals":[{"name":"doggy","barkVolume":0.0},{"name":"catty","lives":0}]}
+{"animals":[{"user":"doggy","barkVolume":0.0},{"user":"catty","lives":0}]}
 Должно стать:
-{"animals":[{"type":"dog","name":"doggy","barkVolume":0.0},{"type":"cat","name":"catty","lives":0}]}
+{"animals":[{"type":"dog","user":"doggy","barkVolume":0.0},{"type":"cat","user":"catty","lives":0}]}
 
 
 Требования:

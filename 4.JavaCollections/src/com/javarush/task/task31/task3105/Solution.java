@@ -33,18 +33,18 @@ public class Solution {
                 while ((count = zipReader.read(buffer)) != -1)
                     byteArrayOutputStream.write(buffer, 0, count);
 
-                archivedFiles.put(entry.getName(), byteArrayOutputStream);
+                archivedFiles.put(entry.getUser(), byteArrayOutputStream);
             }
         }
 
         try (ZipOutputStream zipWriter = new ZipOutputStream(new FileOutputStream(zipFileName))) {
             for (Map.Entry<String, ByteArrayOutputStream> pair : archivedFiles.entrySet()) {
-                if (pair.getKey().substring(pair.getKey().lastIndexOf("/") + 1).equals(file.getName())) continue;
+                if (pair.getKey().substring(pair.getKey().lastIndexOf("/") + 1).equals(file.getUser())) continue;
                 zipWriter.putNextEntry(new ZipEntry(pair.getKey()));
                 zipWriter.write(pair.getValue().toByteArray());
             }
 
-            ZipEntry zipEntry = new ZipEntry("new/" + file.getName());
+            ZipEntry zipEntry = new ZipEntry("new/" + file.getUser());
             zipWriter.putNextEntry(zipEntry);
             Files.copy(file.toPath(), zipWriter);
         }

@@ -7,13 +7,13 @@
 -d id1 id2 id3 id4 ...<br />
 -i id1 id2 id3 id4 ...</code></p>
 <p><strong>Значения параметров:</strong><br />
-<strong>name</strong> &#8212; имя, String<br />
+<strong>user</strong> &#8212; имя, String<br />
 <strong>sex</strong> &#8212; пол, &#171;м&#187; или &#171;ж&#187;, одна буква<br />
 <strong>bd</strong> &#8212; дата рождения в следующем формате 15/04/1990<br />
 <strong>-с</strong> &#8212; добавляет всех людей с заданными параметрами в конец allPeople, выводит id (index) на экран в соответствующем порядке<br />
 <strong>-u</strong> &#8212; обновляет соответствующие данные людей с заданными id<br />
 <strong>-d</strong> &#8212; производит логическое удаление человека с id, заменяет все его данные на null<br />
-<strong>-i</strong> &#8212; выводит на экран информацию о всех людях с заданными id: name sex bd<br />
+<strong>-i</strong> &#8212; выводит на экран информацию о всех людях с заданными id: user sex bd<br />
 <strong>id</strong> соответствует индексу в списке</p>
 <p>Формат вывода даты рождения <strong>15-Apr-1990</strong><br />
 Все люди должны храниться в <strong><span class="text-red">allPeople</span></strong><br />

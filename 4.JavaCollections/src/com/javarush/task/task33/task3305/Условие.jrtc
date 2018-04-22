@@ -7,16 +7,16 @@ taskKey="com.javarush.task.task33.task3305"
 Расставь JSON аннотации так, чтобы результат выполнения метода main был следующим:
 {
 "className" : ".Parking",
-"name" : "Super Parking",
+"user" : "Super Parking",
 "city" : "Kyiv",
 "autos" : [ {
 "className" : "com.javarush.task.task33.task3305.RaceBike",
-"name" : "Simba",
+"user" : "Simba",
 "owner" : "Peter",
 "age" : 2
 }, {
 "className" : "com.javarush.task.task33.task3305.Motorbike",
-"name" : "Manny",
+"user" : "Manny",
 "owner" : null
 }, {
 "className" : "com.javarush.task.task33.task3305.Car"
@@ -25,7 +25,7 @@ taskKey="com.javarush.task.task33.task3305"
 
 Подсказка: это всего два класса.
 
-P.S. Параметр name должен быть равен car, motorbike и race-car для соответствующих классов.
+P.S. Параметр user должен быть равен car, motorbike и race-car для соответствующих классов.
 
 
 Требования:

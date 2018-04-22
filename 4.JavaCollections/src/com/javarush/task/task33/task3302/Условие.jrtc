@@ -9,10 +9,10 @@ taskKey="com.javarush.task.task33.task3302"
 
 
 Требования:
-1.	Поле name класса Cat должно быть отмечено аннотацией JsonProperty.
+1.	Поле user класса Cat должно быть отмечено аннотацией JsonProperty.
 2.	Поле age класса Cat должно быть отмечено аннотацией JsonIgnore.
 3.	Поле weight класса Cat должно быть отмечено аннотацией JsonProperty.
-4.	Значение (value) аннотации JsonProperty у поля name должно быть равно "wildAnimal".
+4.	Значение (value) аннотации JsonProperty у поля user должно быть равно "wildAnimal".
 5.	Значение (value) аннотации JsonProperty у поля weight должно быть равно "over".
 
 

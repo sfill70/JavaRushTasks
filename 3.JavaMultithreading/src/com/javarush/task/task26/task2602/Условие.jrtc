@@ -7,8 +7,8 @@ taskKey="com.javarush.task.task26.task2602"
 
 
 Требования:
-1.	Класс Soldier должен содержать приватные поля String name и int height.
-2.	Класс Soldier должен содержать конструктор с двумя параметрами String name и int height.
+1.	Класс Soldier должен содержать приватные поля String user и int height.
+2.	Класс Soldier должен содержать конструктор с двумя параметрами String user и int height.
 3.	Подумай, что лучше использовать, и реализуй Comparable или Comparator.
 4.	Класс Soldier должен содержать метод compareTo(Soldier solder).
 5.	Метод compareTo(Soldier solder) должен сравнивать двоих солдат, учитывая только их рост. Сравнивать объекты нужно с учетом убывания роста солдат.

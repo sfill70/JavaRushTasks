@@ -10,8 +10,8 @@ taskKey="com.javarush.task.task23.task2309"
 Подсказка: тело метода должно начинаться так: return new AbstractDbSelectExecutor
 
 4. Пример вывода для User и Location:
-Id=5, name='User-5', description=Got by executing 'SELECT * FROM USER'
-Id=1, name='Location-1', description=Got by executing 'SELECT * FROM LOCATION'
+Id=5, user='User-5', description=Got by executing 'SELECT * FROM USER'
+Id=1, user='Location-1', description=Got by executing 'SELECT * FROM LOCATION'
 
 5. Проанализируйте пример вывода и сформируйте правильный query для всех классов.
 

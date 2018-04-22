@@ -140,8 +140,8 @@ MVC (3)
 
 7. Запусти main. У меня теперь такой вывод:
 All users:
-User{name='A', id=1, level=1}
-User{name='B', id=2, level=1}
+User{user='A', id=1, level=1}
+User{user='B', id=2, level=1}
 ===================================================
 Ура, идем дальше.
 
